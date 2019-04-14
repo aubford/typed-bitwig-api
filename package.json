@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "repository": "aubford/typed-bitwig-api",
   "description": "TypeScript definition file for the Bitwig Studio Control Surface Scripting API.",
-  "types": "bitwig-api.d.ts",
+  "types": "bitwig-api-aubrey.d.ts",
   "scripts": {
     "build": "node ./build.js",
     "transform": "node ./build.js -t",
-    "version": "npm run build && git add bitwig-api.d.ts"
+    "version": "npm run build && git add bitwig-api-aubrey.d.ts"
   },
   "author": "Aubrey Ford",
   "license": "BSD-3-Clause",
