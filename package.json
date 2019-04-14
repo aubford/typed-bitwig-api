@@ -1,7 +1,7 @@
 {
-  "name": "typed-bitwig-api",
-  "version": "6.0.0",
-  "repository": "taktiljs/typed-bitwig-api",
+  "name": "typed-bitwig-api-aubrey",
+  "version": "1.0.0",
+  "repository": "aubford/typed-bitwig-api",
   "description": "TypeScript definition file for the Bitwig Studio Control Surface Scripting API.",
   "types": "bitwig-api.d.ts",
   "scripts": {
@@ -9,7 +9,7 @@
     "transform": "node ./build.js -t",
     "version": "npm run build && git add bitwig-api.d.ts"
   },
-  "author": "Joseph Larson",
+  "author": "Aubrey Ford",
   "license": "BSD-3-Clause",
   "devDependencies": {
     "download": "^6.2.5",
