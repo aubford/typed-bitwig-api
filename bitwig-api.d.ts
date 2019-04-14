@@ -9537,9 +9537,9 @@ declare namespace API {
     }
 }
 
-declare const host: API.ControllerHost;
-declare const loadAPI: typeof host.loadAPI;
-declare const load: typeof host.load;
-declare const println: typeof host.println;
-declare const errorln: typeof host.errorln;
+declare var host: API.ControllerHost;
+declare var loadAPI: typeof host.loadAPI;
+declare var load: typeof host.load;
+declare var println: typeof host.println;
+declare var errorln: typeof host.errorln;
 declare function dump(obj: any): void;
